@@ -143,15 +143,6 @@ const Projects = () => {
     : projects.filter(project => project.category === selectedCategory).sort((a, b) => b.priority - a.priority)
 
 
-  const toggleExpanded = (projectId: string) => {
-  const newExpanded = new Set(expandedProjects)
-    if (newExpanded.has(projectId)) {
-      newExpanded.delete(projectId)
-    } else {
-      newExpanded.add(projectId)
-    }
-    setExpandedProjects(newExpanded)
-  }
 
   return (
     <section id="projects" className="py-20 bg-gradient-to-b from-white to-gray-50 dark:from-gray-900 dark:to-gray-800 relative overflow-hidden">

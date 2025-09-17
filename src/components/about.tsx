@@ -102,7 +102,7 @@ const About = () => {
                 transition={{ delay: 0.1 }}
                 className="text-lg"
               >
-                I'm a results-driven Computer Engineering graduate from Modern Academy with a solid foundation 
+                I&apos;m a results-driven Computer Engineering graduate from Modern Academy with a solid foundation 
                 in software development, web technologies, and networking. Currently working as a Full Stack 
                 Developer at Altamayuz Firm, where I build and optimize web applications with modern frameworks.
               </motion.p>
@@ -126,7 +126,7 @@ const About = () => {
                 transition={{ delay: 0.3 }}
                 className="text-lg"
               >
-                I'm passionate about creating user-centric applications with responsive design and robust 
+                I&apos;m passionate about creating user-centric applications with responsive design and robust 
                 architecture. My experience includes e-commerce platforms, educational tools, healthcare 
                 applications, and real-time communication systems.
               </motion.p>

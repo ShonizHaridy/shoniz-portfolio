@@ -2,7 +2,7 @@
 "use client"
 
 import { motion } from 'framer-motion'
-import { Github, Linkedin, Mail, Heart, ArrowUp } from 'lucide-react'
+import { Github, Linkedin, Mail, ArrowUp } from 'lucide-react'
 
 const Footer = () => {
   const currentYear = new Date().getFullYear()

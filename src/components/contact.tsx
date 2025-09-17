@@ -441,8 +441,8 @@ const Contact = () => {
             viewport={{ once: true }}
             transition={{ delay: 0.3 }}
           >
-            Ready to collaborate? I'm always interested in discussing new opportunities, 
-            innovative projects, and exciting challenges. Let's connect and bring your ideas to life!
+            Ready to collaborate? I&apos;m always interested in discussing new opportunities,
+            innovative projects, and exciting challenges. Let&apos;s connect and bring your ideas to life!
           </motion.p>
         </motion.div>
 
@@ -542,11 +542,11 @@ const Contact = () => {
         >
           <div className="bg-gradient-to-r from-primary-50 to-purple-50 dark:from-gray-800/50 dark:to-purple-900/20 rounded-3xl p-8 border border-gray-200/50 dark:border-gray-700/50 backdrop-blur-sm">
             <h3 className="text-2xl font-bold text-gray-900 dark:text-white mb-4">
-              Let's Build Something Amazing Together
+              Let&apos;s Build Something Amazing Together
             </h3>
             <p className="text-gray-600 dark:text-gray-400 mb-6 max-w-2xl mx-auto">
               Whether you have a project in mind, want to collaborate, or just want to say hello, 
-              I'd love to hear from you. Let's turn your vision into reality.
+              I&apos;d love to hear from you. Let&apos;s turn your vision into reality.
             </p>
             <motion.a
               href="https://wa.me/201129448472"

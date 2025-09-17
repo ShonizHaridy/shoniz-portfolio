@@ -87,7 +87,7 @@ const Skills = () => {
             viewport={{ once: true }}
             transition={{ delay: 0.3 }}
           >
-            A comprehensive toolkit of technologies and skills I've mastered throughout my journey as a software engineer
+            A comprehensive toolkit of technologies and skills I&apos;ve mastered throughout my journey as a software engineer
           </motion.p>
         </motion.div>
 
