@@ -39,3 +39,10 @@ yarn-error.log*
 # typescript
 *.tsbuildinfo
 next-env.d.ts
+
+
+# Ignore all Python files
+*.py
+
+# Ignore all Word documents
+*.docx

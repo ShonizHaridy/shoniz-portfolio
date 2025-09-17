@@ -1,0 +1,8 @@
+User-agent: *
+Allow: /
+
+# Host
+Host: https://shoniz.netlify.app
+
+# Sitemaps
+Sitemap: https://shoniz.netlify.app/sitemap.xml
