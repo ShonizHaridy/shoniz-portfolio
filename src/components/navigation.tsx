@@ -14,11 +14,11 @@ const Navigation = () => {
 
   useEffect(() => {
     setMounted(true)
-    
+
     const handleScroll = () => {
       setScrolled(window.scrollY > 50)
     }
-    
+
     window.addEventListener('scroll', handleScroll)
     return () => window.removeEventListener('scroll', handleScroll)
   }, [])
@@ -59,8 +59,8 @@ const Navigation = () => {
         initial={{ y: -100 }}
         animate={{ y: 0 }}
         className={`fixed top-0 w-full z-50 transition-all duration-300 ${
-          scrolled 
-            ? 'bg-white/95 dark:bg-gray-900/95 backdrop-blur-xl shadow-lg border-b border-gray-200/50 dark:border-gray-700/50' 
+          scrolled
+            ? 'bg-white/95 dark:bg-gray-900/95 backdrop-blur-xl shadow-lg border-b border-gray-200/50 dark:border-gray-700/50'
             : 'bg-white/80 dark:bg-gray-900/80 backdrop-blur-md border-b border-gray-200/30 dark:border-gray-700/30'
         }`}
       >
@@ -169,8 +169,6 @@ const Navigation = () => {
         </AnimatePresence>
       </motion.nav>
       
-      {/* Spacer to prevent content from hiding behind fixed nav */}
-      <div className="h-20"></div>
     </>
   )
 }

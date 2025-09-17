@@ -53,8 +53,8 @@ const Projects = () => {
         'Complete content management system',
         'Responsive design'
       ],
-      githubUrl: 'https://github.com/ShonizHaridy/turatrip',
-      liveUrl: 'https://turatrip.example.com',
+      // githubUrl: 'https://github.com/ShonizHaridy/turatrip',
+      liveUrl: 'https://turatrip.com',
       category: 'fullstack',
       priority: 9,
       featured: true

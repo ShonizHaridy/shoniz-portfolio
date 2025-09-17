@@ -102,8 +102,8 @@ const About = () => {
                 transition={{ delay: 0.1 }}
                 className="text-lg"
               >
-                I&apos;m a results-driven Computer Engineering graduate from Modern Academy with a solid foundation 
-                in software development, web technologies, and networking. Currently working as a Full Stack 
+                I&apos;m a results-driven Software Engineer with a solid foundation 
+                in software development, web technologies. Currently working as a Full Stack 
                 Developer at Altamayuz Firm, where I build and optimize web applications with modern frameworks.
               </motion.p>
               

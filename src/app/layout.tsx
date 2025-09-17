@@ -34,7 +34,7 @@ export const metadata: Metadata = {
     'Portfolio',
     'Freelancer'
   ],
-  authors: [{ name: 'Shoniz Mahmoud', url: 'https://shonizmahmoud.com' }],
+  authors: [{ name: 'Shoniz Mahmoud', url: 'https://shonizharidy.com' }],
   creator: 'Shoniz Mahmoud',
   publisher: 'Shoniz Mahmoud',
   robots: {
@@ -51,7 +51,7 @@ export const metadata: Metadata = {
   openGraph: {
     type: 'website',
     locale: 'en_US',
-    url: 'https://shoniz.netlify.app',
+    url: 'https://shonizharidy.com',
     title: 'Shoniz Mahmoud - Full Stack Developer & Software Engineer',
     description: 'Computer Engineering graduate from Cairo, Egypt specializing in full-stack development, mobile applications, and modern web technologies. Expert in React, Next.js, Node.js, Django, React Native, Flutter, and scalable system architecture.',
     siteName: 'Shoniz Mahmoud Portfolio',
@@ -86,9 +86,9 @@ export const metadata: Metadata = {
     ],
   },
   manifest: '/site.webmanifest',
-  metadataBase: new URL('https://shoniz.netlify.app'),
+  metadataBase: new URL('https://shonizharidy.com'),
   alternates: {
-    canonical: 'https://shoniz.netlify.app',
+    canonical: 'https://shonizharidy.com',
   },
   verification: {
     google: 'your-google-verification-code', // Add your Google verification code
